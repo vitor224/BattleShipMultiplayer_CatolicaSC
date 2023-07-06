@@ -1,4 +1,5 @@
-public class Tabuleiro {
+import java.io.Serializable;
+public class Tabuleiro implements Serializable {
     private static final int TAMANHO_TABULEIRO = 10;
     private Celula[][] celulas;
 
@@ -33,7 +34,7 @@ public class Tabuleiro {
         return false;
     }
 
-    private class Celula {
+    public class Celula implements Serializable {
         private boolean atingida;
         private Embarcacao embarcacao;
 

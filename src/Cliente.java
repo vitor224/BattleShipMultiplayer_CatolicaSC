@@ -5,7 +5,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Cliente {
-    private static final String SERVIDOR_IP = "127.0.0.1";
+    private static final String SERVIDOR_IP = "172.20.144.1";
     private static final int PORTA = 12345;
 
     public void iniciar() {
